@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 5%;
+}
+
+
+.song {
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 80px;
+    background-color: #111;
+
+    text-align: center;
+    box-shadow: 0 0 50px rgba(0,255,255,0.3);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+    
+}
+
+.song:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0,255,255,0.5);
+}
+
+.song h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: cyan;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 150px;  
+    text-align: center;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+
+.song p:hover{
+    object-fit: cover;
+    transition: color .5s ease;
+    transform: scale(1.05);
+    color: gold;
+}
+
+
+.song-pic{
+    
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    float: right;
+    align-items: right;
+    width: 130px;
+    height: 130px;
+    border-radius: 30%;
+    box-shadow: 0 0 10px rgba(0,255,255,0.7);
+    margin-bottom: 20px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.song-pic:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 9px gold;
+}
+
+.song h2{
+     font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-left: 115px;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+
+.song h3{
+     font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: center;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+
+.song p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: rgb(228, 212, 212);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+
+
+.song-back-link{
+    width: 130px;
+    height: 20px;
+    margin-left: -35px;
+    margin-top: 60px;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.song-back-link:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 9px black;
+}
+.song-back-link a{
+    
+    background-color: #111;
+    color: white;
+    font-weight: normal;
+    font-family: 'tahoma', sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.song-back-link a:hover{
+    color: gold;
+}
