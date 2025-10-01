@@ -1,0 +1,477 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+
+.container {
+    width: 70%;
+    margin: 100px auto;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;  /* dark box */
+    padding: 30px;
+    border-radius: 85px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    text-align: center;
+ 
+    h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4.5em;
+    color: cyan;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 20px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+
+
+
+
+   h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+   }
+   
+}
+ .profile-pic {
+        float: right;
+        margin-right: 10px;
+        margin-left: 50px;
+        margin-bottom: 200px;
+        width: 700px;
+        position: right;
+        border-radius: 70px;
+        box-shadow: 0 0 70px rgba(0,255,255,0.3);
+    transition: transform 0.3s ease;           
+    }
+  .container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(0,255,255,0.7);
+  }
+
+.links {
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: #111;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+
+}
+
+.links h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4.5em;
+    color: cyan;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 20px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+
+.links a {
+    
+    font-family: 'Orbitron', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2em; 
+    color: white;
+    background-color: #111;
+        display: inline-block;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+    margin: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: cyan;
+    color: black;
+}
+
+
+.song{
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 80px;
+        background-color: #111;
+
+    text-align: center;
+    box-shadow: 0 0 50px rgba(0,255,255,0.3);
+
+ h1{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: cyan;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 150px;  
+    text-align: center;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+
+ h2{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+ h3{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: rgb(228, 212, 212);
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+
+.song-pic {
+
+       width: 150px;
+        height: 150px;  
+        background-color: black;
+        float: right;
+        box-shadow: 0 0 20px rgba(3, 3, 3, 0.3);
+        border-radius: 30%;
+
+}
+
+}
+
+
+
+.movie{
+   width: 70%;
+    margin: 100px auto;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;  /* dark box */
+    padding: 30px;
+    border-radius: 85px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    text-align: center;
+        transition: transform 0.3s ease;
+
+
+ h1{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: cyan;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+
+ h2{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+ h3{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: rgb(214, 210, 210);
+    text-align: justify;
+    margin-bottom: 0%;
+}
+}
+
+.movie-pic {
+        float: right;
+        margin-right: 10px;
+        margin-left: 50px;
+        margin-bottom: 700px;
+        width: 300px;
+        position: right;
+        border-radius: 40px;
+        box-shadow: 0 0 70px rgba(0,255,255,0.3);
+
+    }
+
+
+.food{
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 80px;
+        background-color: #111;
+
+    text-align: center;
+    box-shadow: 0 0 50px rgba(0,255,255,0.3);
+
+ h1{
+
+     font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: cyan;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+
+h2{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    color: rgb(248, 247, 247);
+    text-align: center;
+    margin-bottom: -1%;
+}
+
+ h3{
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: -1%;
+}
+
+.food-pic {
+
+        margin-right: 800px;
+        margin-left: 200px;
+        margin-bottom: 20px;
+        width: 250px;
+        border-radius: 40px;
+        box-shadow: 0 0 70px rgba(0,255,255,0.3);
+}
+}
+
+
+
+.teacher {
+    width: 70%;
+    margin: 100px auto;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 85px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    text-align: center;
+}
+
+
+
+.teacher-gallery {
+    display: flex;
+    margin-left: 330px;
+    margin-bottom: 5px; /* ⬅️ space between images and h2 */
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    gap: 30px;
+    background-color: #111;
+}
+.teacher-gallery img {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 5px; /* Reduced space below images */
+
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0,255,255,0.3);
+    transition: transform 0.3s ease;
+}
+.teacher-gallery img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 30px rgba(0,255,255,0.7);
+}
+
+.teacher h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: cyan;
+    margin-bottom: 40px; /* ⬅️ increased gap before images */
+    text-align: center;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+.teacher h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    margin-top: -40px;   /* adjust closer to images */
+    margin-bottom: 0;
+
+}
+.teacher h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: rgb(216, 207, 207);
+    text-align: justify;
+        margin-bottom: 5px; /* Reduced space below images */
+
+}
+
+.movie img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 30px rgba(0,255,255,0.7);
+        transition: transform 0.5s ease;
+
+}
+
+.teacher-back-link{
+    width: 130px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.teacher-back-link:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 9px black;
+}
+.teacher-back-link a{
+
+    background-color: #111;
+    color: white;
+    font-weight: normal;
+    font-family: 'tahoma', sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.teacher-back-link a:hover{
+    color: gold;
+}
+
+
+
+
+
+
+
+.person{
+    width: 70%;
+    margin: 100px auto;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 85px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    text-align: center;
+}
+
+.person h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: cyan;
+    margin-bottom: 40px; /* ⬅️ increased gap before images */
+    text-align: center;
+    background-color: #111;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.7);
+}
+
+.person h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.person-back-link{
+    width: 130px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.person-back-link:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 9px black;
+}
+.person-back-link a{
+
+    background-color: #111;
+    color: white;
+    font-weight: normal;
+    font-family: 'tahoma', sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.person-back-link a:hover{
+    color: gold;
+}
